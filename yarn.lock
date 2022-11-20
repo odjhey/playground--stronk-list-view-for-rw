@@ -6203,6 +6203,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/papaparse@npm:^5.3.5":
+  version: 5.3.5
+  resolution: "@types/papaparse@npm:5.3.5"
+  dependencies:
+    "@types/node": "*"
+  checksum: 60005ff74b1e20ec9c11ebab74890d6e1d311017ac053d993c2e794983490badb7c59b6aa407845fdc3769077f835ca535d00fdd553cd0dce8c15c2e32e20814
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -7453,6 +7462,8 @@ __metadata:
   dependencies:
     "@redwoodjs/api": 3.4.0
     "@redwoodjs/graphql-server": 3.4.0
+    "@types/papaparse": ^5.3.5
+    papaparse: ^5.3.2
   languageName: unknown
   linkType: soft
 
@@ -18140,6 +18151,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"papaparse@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "papaparse@npm:5.3.2"
+  checksum: fdc50cae03fdf94fa2b78da86fe18fa53ca36753ccd6619ca7f738df097cdd2cbf572a9c048a72c05118db7cf0ccb25d574f39a720c5e1a8d8c6903b0fd30765
+  languageName: node
+  linkType: hard
+
 "parallel-transform@npm:^1.1.0":
   version: 1.2.0
   resolution: "parallel-transform@npm:1.2.0"
@@ -23401,6 +23419,7 @@ __metadata:
     "@redwoodjs/forms": 3.4.0
     "@redwoodjs/router": 3.4.0
     "@redwoodjs/web": 3.4.0
+    humanize-string: 2.1.0
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
