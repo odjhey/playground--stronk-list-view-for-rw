@@ -14,6 +14,7 @@ import ScaffoldLayout from 'src/layouts/ScaffoldLayout'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/" page={HomePage} name="home" />
       <Set wrap={ScaffoldLayout} title="Pokemons" titleTo="pokemons" buttonLabel="New Pokemon" buttonTo="newPokemon">
         <Route path="/pokemons/{name}" page={PokemonPokemonPage} name="pokemon" />
         <Route path="/pokemons" page={PokemonPokemonsPage} name="pokemons" />
