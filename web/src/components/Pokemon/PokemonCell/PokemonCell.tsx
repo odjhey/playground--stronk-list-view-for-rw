@@ -20,7 +20,7 @@ export const Loading = () => <div>Loading...</div>
 export const Empty = () => <div>Pokemon not found</div>
 
 export const Failure = ({ error }: CellFailureProps) => (
-  <div className="rw-cell-error">{error?.message}</div>
+  <div>{error?.message}</div>
 )
 
 export const Success = ({ pokemon }: CellSuccessProps<FindPokemonByName>) => {

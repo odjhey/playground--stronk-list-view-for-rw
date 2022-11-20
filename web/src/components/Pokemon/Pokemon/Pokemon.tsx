@@ -9,13 +9,11 @@ interface Props {
 const Pokemon = ({ pokemon }: Props) => {
   return (
     <>
-      <div className="rw-segment">
-        <header className="rw-segment-header">
-          <h2 className="rw-heading rw-heading-secondary">
-            Pokemon {pokemon.id} Detail
-          </h2>
+      <div>
+        <header>
+          <h2>Pokemon {pokemon.name} Detail</h2>
         </header>
-        <table className="rw-table">
+        <table className="table table-zebra">
           <tbody>
             <tr>
               <th>Name</th>

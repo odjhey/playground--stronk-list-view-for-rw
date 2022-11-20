@@ -6,8 +6,8 @@ import { truncate } from 'src/lib/formatters'
 
 const PokemonsList = ({ pokemons }: FindPokemons) => {
   return (
-    <div className="rw-segment rw-table-wrapper-responsive">
-      <table className="rw-table">
+    <div>
+      <table className="table table-zebra">
         <thead>
           <tr>
             <th>Name</th>
@@ -25,11 +25,11 @@ const PokemonsList = ({ pokemons }: FindPokemons) => {
               <td>{truncate(pokemon.speed)}</td>
               <td>{truncate(pokemon.type)}</td>
               <td>
-                <nav className="rw-table-actions">
+                <nav>
                   <Link
+                    className="btn btn-sm"
                     to={routes.pokemon({ name: pokemon.name })}
                     title={'Show pokemon ' + pokemon.name + ' detail'}
-                    className="rw-button rw-button-small"
                   >
                     Show
                   </Link>
